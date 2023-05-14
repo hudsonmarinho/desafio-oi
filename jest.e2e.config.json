@@ -1,0 +1,7 @@
+{
+  "preset": "jest-playwright-preset",
+  "testMatch": ["**/e2e/*.spec.ts"],
+  "transform": {
+    "^.+\\.ts$": "ts-jest"
+  }
+}
