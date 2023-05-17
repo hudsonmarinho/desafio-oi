@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "start": "react-scripts start",
+    "start:container": "docker-compose -f docker-compose.yml up",
     "build": "react-scripts build",
     "lint-staged": "lint-staged",
     "test": "react-scripts test",
