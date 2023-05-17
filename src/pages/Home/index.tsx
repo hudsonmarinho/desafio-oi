@@ -9,6 +9,7 @@ const Home: React.FC = () => {
       <Header />
 
       <Wrapper>
+        <ListPokemons />
       </Wrapper>
     </>
   );
